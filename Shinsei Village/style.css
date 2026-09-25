@@ -1,0 +1,170 @@
+@font-face {
+    font-family: font;
+    src: url(./GrechenFuemen-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+#page1{
+    height: 120%;
+    width: 120%;
+    border-radius: 30%;
+    position: absolute;
+    top: -30%;
+    left: -120px;
+    background-image: url(./img1.png);
+    background-size: cover;
+    display: flex;
+}
+#left{
+ height: 100%;
+ width: 50%;
+}
+#left h3{
+    font-family: font;
+    padding-left: 430px;
+    font-size: 65px;
+    color: white;
+}
+#left p{
+    padding-top: 379px;
+    padding-left: 450px;
+    font-size: 20px;
+    color: white;
+    line-height: 1px;
+}
+#right{
+   height: 100%;
+ width: 50%;  
+}
+#right h3{
+    font-family: font;
+       padding-left: 70px;
+    padding-top: 390px;
+    font-size: 60px;
+    color: white;
+}
+#right p{
+    line-height: 1px;
+   padding-left: 110px;
+    font-size: 20px;
+    color: white;
+}
+#page2{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+#lt img{
+ height: 40px;
+ cursor: pointer;
+}
+#md{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#md h3{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: aliceblue;
+}
+#md h3:hover{
+    color: rgba(240, 248, 255, 0.747);
+}
+#rt i{
+    cursor: pointer;
+    margin-left: 10px;
+ font-size: 25px;
+padding: 3px;
+border-radius: 10px;
+background-color: white;
+color: rgb(162, 161, 161);
+}
+span{
+    font-size: 15px;
+    color: rgb(210, 164, 105);
+}
+#img2 img{
+    position: absolute;
+    top: 44.9%;
+    height: 400px;
+    left: 620px;
+}
+#last{
+    margin-top: 470px;
+    height: 60%;
+    width: 100%;
+    background-color: #2E2833;
+}
+#top{
+    height: 200px;
+    width: 100%;
+}
+#top h3{
+
+    font-family: font;
+    color: aliceblue;
+    padding-top: 130px;
+    text-align: center;
+    font-size: 29px;
+}
+#bt{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+#p1{
+        border-bottom: 1px solid aliceblue;
+    border-top: 1px solid aliceblue;
+ height: 100%;
+ width: 40%;
+ border-radius: 20px 0 0 20px;
+}
+#p1 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 13px;
+ font-weight: 400;
+ padding-top: 40px;
+ padding-left: 15px;
+ color: aliceblue;
+ text-align: left;
+ padding-bottom: 20px;
+}
+#p2{
+ height: 100%;
+ width: 40%;
+  border-radius: 0px 20px 20px 0px;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+}
+#p2 p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ padding-bottom: 20px;
+ font-size: 13px;
+ font-weight: 400;
+  padding-left: 29px;
+ padding-top: 40px;
+ color: aliceblue;
+ text-align: left;
+}
